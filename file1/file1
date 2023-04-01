@@ -1,3 +1,44 @@
-hello team
-hoping ur doing good
+This file is about GITHUB
+
+First we need to install git hub
+To install 
+# yum install github -y
+after installing 
+#git init
+After that we need to check git status
+It will be in untracked position
+we need to add 1 file in it
+#mkdir file
+If we want to see the structure then 
+First we need to install tree
+#yum install tree -y
+Now
+#tree
+Now we need to add that file
+# git add "file1"
+#git status
+Now we need to give message stating that we added 1 file 
+# git commit -m "file1 is added"
+Now we need to create branches
+There are two types of branches 
+1>> long live: these branches we can't deleted. 
+Under long live >>> Master , production branches will come under this.
+2>>short live: these branches we can delete when ever we needed.
+Under short live: development,testing,uat branches will come.
+So, now we need to add branches
+To check in which branch we are there
+# git branc
+To check waht all branches are presented then
+# git branch -a
+we need to add branches
+To add branches
+# git branch development1
+# git branch development2
+# git branch testing1
+# git branch testing2
+# git branch uat1
+# git branch uat2
+Now check which branch we are
+we can transfer 1 branch to another
+# git checkout development1
 
