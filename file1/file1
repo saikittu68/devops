@@ -15,7 +15,7 @@ First we need to install tree
 Now
 #tree
 Now we need to add that file
-# git add file1
+# git add "file1"
 #git status
 Now we need to give message stating that we added 1 file 
 # git commit -m "file1 is added"
